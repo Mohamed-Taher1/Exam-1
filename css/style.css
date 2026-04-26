@@ -350,39 +350,13 @@ background: linear-gradient(to right, #6e48aabd, #9d50bbb9);
   }
   
 
-  .featured-properties > div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 8px;
-    }
+
 
   .popular-locations img {
     width: 100%;
   }
 
 
- .popular-locations .loc-group {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "loc1 loc2 loc3";
-    gap: 8px;
-}
-
-.popular-locations .location1 {
-    grid-area: loc1;
-}
-
-.popular-locations .location2 {
-    grid-area: loc2;
-}
-
-.popular-locations .location3 {
-    grid-area: loc3;
-}
-
-.loc-group span {
-    font-size: 14px !important;
-}
 
 .resources .resources-cards {
      display: grid;
